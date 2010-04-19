@@ -31,9 +31,16 @@
 射`f:A→B`がepiである ⇔ (∀`g,h:B→X`、`f;g=f;h` ⇒ `g = h`)
 
 
+## 定義. inverse
+
+`f:A→B`と`g:B→A`について、
+
+`g = f^-1` ⇔ (`f;g=A` かつ `g;f=B`)
+
+
 ## 定義. iso
 
-射`f:A→B`がisoである ⇔ (∃`g:B→A` s.t. `f;g=A` かつ `g;f=B`)
+射`f:A→B`がisoである ⇔ (∃`g:B→A` s.t. `g = f^-1`)
 
 
 ## 定理. 
