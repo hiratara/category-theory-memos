@@ -24,3 +24,12 @@
 ## 定義. mono
 
 射`f:A→B`がmonoである ⇔ (∀g,h:X→A、g;f=h;f ⇒ g = h)
+
+
+## 定理. 
+
+`f;g`がmono ⇒ fはmono
+
+### 証明.
+
+`h`,`k`に関して、 `h;f = k;f` とする。このとき、`h;f;g = k;f;g` であり、`f;g` がmonoであるから、`h=k`が得られる。よって、`f`はmono。
