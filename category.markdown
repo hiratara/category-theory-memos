@@ -37,7 +37,7 @@
 
 ## 定理. 
 
-`f;g`がmono ⇒ fはmono
+`f;g`がmono ⇒ `f`はmono
 
 ### 証明.
 
