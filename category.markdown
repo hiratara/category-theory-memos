@@ -23,7 +23,17 @@
 
 ## 定義. mono
 
-射`f:A→B`がmonoである ⇔ (∀g,h:X→A、g;f=h;f ⇒ g = h)
+射`f:A→B`がmonoである ⇔ (∀`g,h:X→A`、`g;f=h;f` ⇒ `g = h`)
+
+
+## 定義. epi
+
+射`f:A→B`がepiである ⇔ (∀`g,h:B→X`、`f;g=f;h` ⇒ `g = h`)
+
+
+## 定義. iso
+
+射`f:A→B`がisoである ⇔ (∃`g:B→A` s.t. `f;g=A` かつ `g;f=B`)
 
 
 ## 定理. 
